@@ -1,5 +1,6 @@
 site_name: Tech Dictionary Blog
 site_description: 技術用語・概念の個人的な解説ブログ
+site_url: https://mottye.github.io/blog/
 theme:
   name: material
   palette:
