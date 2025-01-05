@@ -40,18 +40,20 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - ホーム: index.md
   - カテゴリー:
-    - プログラミング言語:
-      - categories/programming/index.md
-    - インフラ・クラウド:
-      - categories/infrastructure/index.md
-      - セッション: categories/infrastructure/session.md
-    - 開発ツール:
-      - categories/tools/index.md
+      - プログラミング言語:
+          - categories/programming/index.md
+      - インフラ・クラウド:
+          - categories/infrastructure/index.md
+          - セッション: categories/infrastructure/session.md
+      - 開発ツール:
+          - categories/tools/index.md
   - 用語集: glossary.md
-  - About: about.md 
+  - About: about.md
+  - 投稿一覧:
+      - 最初の投稿: posts/first-post.md
