@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mottye.github.io/blog/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/about/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/glossary/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/categories/infrastructure/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/categories/infrastructure/session/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/categories/programming/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/categories/tools/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mottye.github.io/blog/posts/first-post/</loc>
+         <lastmod>2025-01-05</lastmod>
+    </url>
+</urlset>
