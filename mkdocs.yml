@@ -1,0 +1,56 @@
+site_name: Tech Dictionary Blog
+site_description: 技術用語・概念の個人的な解説ブログ
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+markdown_extensions:
+  - meta
+  - tables
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - ホーム: index.md
+  - カテゴリー:
+    - プログラミング言語:
+      - categories/programming/index.md
+    - インフラ・クラウド:
+      - categories/infrastructure/index.md
+      - セッション: categories/infrastructure/session.md
+    - 開発ツール:
+      - categories/tools/index.md
+  - 用語集: glossary.md
+  - About: about.md 
