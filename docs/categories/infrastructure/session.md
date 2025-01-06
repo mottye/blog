@@ -50,3 +50,16 @@ Server->>Storage: セッションデータ取得
 Storage->>Server: データ返却
 Server->>User: レスポンス
 ```
+
+### 関連知識
+- HttpOnly属性
+  - クライアント側のJavaScriptからCookieを読み取れないようにする
+  - XSS攻撃を受けた際にCookieが漏洩するのを防ぐ
+- Secure属性
+  - HTTPSでのみCookieを送信する
+  - クライアントとサーバー間の通信が暗号化されていることを確認
+- SameSite属性
+  - クロスサイトリクエストでCookieを送信しないようにする
+  - クロスサイトリクエスト攻撃を防ぐ
+
+
